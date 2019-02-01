@@ -13,8 +13,7 @@ body {
 .nav {
     display: inline-block   ;
     width: 65%;
-    border: 1px solid green;
-    position: absolute;
+    position: relative;
     left: 17.5%;
 }
 
@@ -61,3 +60,19 @@ body {
 }
 
 /* HEADER BC */
+
+.bc-header {
+    background-image: url(css-img/Blog-bc.jpg);
+    height: 400px;
+}
+
+.bc-header h1 {
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
